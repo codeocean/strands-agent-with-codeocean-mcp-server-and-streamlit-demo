@@ -16,6 +16,17 @@ if "agent" not in st.session_state:
     st.session_state.agent = get_agent()
 
 # Display chat messages
+if not st.session_state.messages:
+    with st.chat_message("assistant"):
+        st.markdown("""**Welcome! I'm Aqua, your Code Ocean assistant.**
+I can help you:
+- 🔍 Search for capsules and data assets
+- ▶️ Run computational workflows  
+- 📊 Manage and create data assets
+- 📁 Download and analyze results
+                    
+Just ask me anything about your Code Ocean environment!""")
+
 for message in st.session_state.messages:
     with st.chat_message(message["role"]):
         st.markdown(message["content"])
