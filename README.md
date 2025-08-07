@@ -148,30 +148,3 @@ uv sync --upgrade
 1. **MCP Connection Error**: Ensure `uvx` is installed and `codeocean-mcp-server` is available
 2. **API Key Issues**: Verify environment variables are set correctly
 3. **Import Errors**: Run `uv sync` to ensure all dependencies are installed
-
-### Debug Mode:
-
-Check terminal output when running the Streamlit app for detailed error messages.
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
-
-## 📄 License
-
-[Add your license information here]
-
-## 📞 Support
-
-For issues related to:
-- Code Ocean integration: Check Code Ocean documentation
-- MCP protocol: Visit [MCP GitHub repository](https://github.com/modelcontextprotocol)
-- Streamlit: See [Streamlit documentation](https://docs.streamlit.io)
-
----
-
-Built with ❤️ using Streamlit, Claude, and Code Ocean MCP
