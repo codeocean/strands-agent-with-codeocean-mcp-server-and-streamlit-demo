@@ -9,8 +9,9 @@ wheels/
 # Virtual environments
 .venv
 .env
-scratch
 .vscode
 simple-agent-for-mirador-with-claude-2025-08-05-package/
 *.zip
 .DS_Store
+data/
+scratch/
