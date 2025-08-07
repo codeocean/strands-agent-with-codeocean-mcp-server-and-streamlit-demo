@@ -4,5 +4,31 @@
 	"options": {
 		"registry_host_arg": true,
 		"git_ask_pass": true
+	},
+	"installers": {
+		"pip3": {
+			"packages": [
+				{
+					"name": "anthropic"
+				},
+				{
+					"name": "dotenv"
+				},
+				{
+					"name": "mcp"
+				},
+				{
+					"name": "strands-agents"
+				},
+				{
+					"name": "streamlit"
+				},
+				{
+					"name": "uv"
+				}
+			],
+			"options": {},
+			"pre_install_options": {}
+		}
 	}
 }
